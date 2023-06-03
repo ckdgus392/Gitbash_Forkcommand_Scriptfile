@@ -21,8 +21,11 @@
     
     4-1. fetch
     
-    `**$ git fetch upstream`
+    `$ git fetch upstream`
     
+    `※ fetch는 원격 저장소에 변경사항이 있는지 확인만 함.`
+    
+    `※ 변경된 데이터를 로컬 Git에 실제로 가져오지는 않는다.`
     
 
 1. **stage area에 올려 놓을 파일 확인**
@@ -51,7 +54,12 @@
     
     `$ git push origin [branch명]`
     
+-----
+1. **pull(최신화 하기)**
 
+    `$ git pull origin [branch명]`
+    
+    `$ git fetch origin [branch명]`
 ---
 
 - git bash
